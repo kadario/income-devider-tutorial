@@ -1,12 +1,11 @@
-# Slint Rust Template
+# Income Devider built with Slint Rust Template
 
 A template for a Rust application that's using [Slint](https://slint.rs) for the user interface.
 
 ## About
 
-This template helps you get started developing a Rust application with Slint as toolkit
-for the user interface. It demonstrates the integration between the `.slint` UI markup and
-Rust code, how to trigger react to callbacks, get and set properties and use basic widgets.
+This app was build as a Rust practice by next tutorial: 
+https://www.youtube.com/watch?v=7aFgeUG9TK4
 
 ## Usage
 
