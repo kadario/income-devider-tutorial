@@ -1,0 +1,19 @@
+[package]
+name = "incomeapp"
+version = "0.1.0"
+authors = ["Александр Малышев <a.malyshev@bzklinika.ru>"]
+edition = "2021"
+build = "build.rs"
+description = "A desktop app that calculates and devides your income"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+slint = "1.4"
+
+[build-dependencies]
+slint-build = "1.4"
+
+[package.metadata.bundle]
+name = "Income Devider"
+identifier = "io.github.kadario.income-devider-tutorial"
