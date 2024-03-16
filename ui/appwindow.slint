@@ -35,6 +35,7 @@ export component AppWindow inherits Window {
                 primary: true;
                 height: 35px;
                 clicked => {
+                    root.open_curtain = !root.open_curtain;
                     devide-income(income.text)
                 }
             }
